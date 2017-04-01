@@ -1,0 +1,9 @@
+# ------- Terminal Highlighting-------
+export CLICOLOR=1;
+
+# ----- Prompt --------
+# Change Command Prompt
+source ~/.git-prompt.sh
+
+# My PS1
+export PS1="$white\u ▲ \h$blue\$(__git_ps1)$lblue \W $white"
